@@ -1,0 +1,119 @@
+#container {
+    justify-content: center;
+    background-color: black;
+    margin: auto;
+    width: 300px;
+    height: 530px;
+    position: absolute;
+    left: 40%;
+    top: 16%;
+    border-radius: 3%;
+}
+
+body {
+    background-color: red;
+}
+
+button {
+    color: white;
+    background-color: black;
+}
+
+.block button:hover {
+    background-color: #303030;
+}
+
+.circles button:hover {
+    background-color: #606060;
+}
+
+button:active {
+    box-shadow: 0 5px #202020;
+    transform: translate(2px, 2px);
+}
+
+#screen {
+    position: relative;
+    background-color: black;
+    color: white;
+    width: auto;
+    height: 30%;
+    border-radius: 3%;
+}
+
+.buttons {
+    position: absolute;
+    width: auto;
+    height: auto;
+}
+
+.circles {
+    float: right;
+    position: relative;
+    width: 25%;
+    height: 100%;
+}
+
+.circles button {
+    font-size: large;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #303030;
+    border-width: 0px;
+    margin-top: 16px;
+    margin-left: 20px;
+    margin-bottom: 16px;
+}
+
+.block {
+    grid-row: auto;
+    position: relative;
+    float: left;
+    width: 75%;
+    height: 100%;
+}
+
+.block button {
+    color: white;
+    font-size: x-large;
+    width: 71px;
+    height: 71px;
+    border-radius: 50%;
+    background-color: black;
+    border-width: 0px;
+}
+
+#clear {
+    color: red;
+}
+
+#input,
+#output {
+    background-color: black;
+    position: relative;
+    color: white;
+    text-align: right;
+    height: fit-content;
+    font-size: 23px;
+    top: 75px;
+    padding-bottom: 10px;
+    border: hidden;
+}
+
+#input {
+    margin-bottom: 5px;
+}
+
+#container {
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
+
+
+/* .block button {
+    width: 72px;
+    height: 72px;
+    padding: 0;
+    margin: 0;
+    border: 0;
+} */

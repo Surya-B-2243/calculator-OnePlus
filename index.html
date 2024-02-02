@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator One plus</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div id='container'>
+        <div id="screen">
+            <input type="text" placeholder="input" id="input" onkeydown="check(event)">
+            <input type="text" placeholder="output" id="output">
+        </div>
+
+        <div class="buttons">
+            <div class="block">
+                <button id="commands" data-key="AC" style="color: red;">AC</button>
+                <button id="commands" data-key="delete" style="color: red;">⌫</button>
+                <button id="operators" data-key="%">%</button>
+                <button id="numbers" data-key="7">7</button>
+                <button id="numbers" data-key="8">8</button>
+                <button id="numbers" data-key="9">9</button>
+                <button id="numbers" data-key="4">4</button>
+                <button id="numbers" data-key="5">5</button>
+                <button id="numbers" data-key="6">6</button>
+                <button id="numbers" data-key="1">1</button>
+                <button id="numbers" data-key="2">2</button>
+                <button id="numbers" data-key="3">3</button>
+                <button id="" data-key="">↙↗</button>
+                <button id="numbers" data-key="0">0</button>
+                <button id="numbers" data-key=".">.</button>
+            </div>
+            <div class="circles">
+                <button id="operators" data-key="/">/</button>
+                <button id="operators" data-key="*">x</button>
+                <button id="operators" data-key="-">-</button>
+                <button id="operators" data-key="+">+</button>
+                <button id="commands" data-key="equals" style="background-color: red;">=</button>
+
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
